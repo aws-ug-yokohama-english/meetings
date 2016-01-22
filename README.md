@@ -1,10 +1,11 @@
-AWS UG - Yokohama (English)
-===========================
+AWS User Group - Yokohama (English)
+===================================
+
+The AWS UG - Japan - Yokohama (English) welcomes anyone interested in discussing the cloud in general and Amazon Web Services in particular. We conduct monthly meetings to network, learn, and help others where possible. Join us!
 
 # Meeting Planning / Schedule
 
-
-# October, 2015
+# January, 2016
 
 ## Topic: Welcome to the first meetup (1.5 hrs)
 
@@ -17,40 +18,38 @@ AWS UG - Yokohama (English)
 
 ## AWS Related events
 
-# November, 2015
+# February, 2016
 
 ## Topic: Simple Storage Service (S3)
 
 ## AWS Related events
 
-# December, 2015
+# March, 2016
 
 ## Topic: CloudFront
 
 ## AWS Related events
 
-# January, 2016
+# April, 2016
 
 ## Topic: Route 53
 
 ## AWS Related events
 
-# February, 2016
+# May, 2016
 
 ## Topic: Elastic Cloud Compute (EC2)
 
 ## AWS Related events
 
-# March, 2016
+# June, 2016
 
 ## Topic: Relational Database Service (RDS)
 
 ## AWS Related events
 
-# April, 2016
+# July, 2016
 
 ## Topic: Identity Access Management (IAM)
 
 ## AWS Related events
-
-
