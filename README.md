@@ -3,6 +3,10 @@ AWS User Group - Yokohama (English)
 
 The AWS User Group - Japan - Yokohama (English) welcomes anyone interested in discussing the cloud in general and Amazon Web Services in particular. We conduct monthly meetings to network, learn, and help others where possible. Join us!
 
+## RSVP to an event
+
+Please RSVP to join the next event if you are interested in attending. Out meetup page is located at http://www.meetup.com/AWS-User-Group-Japan-Yokohama-English/ 
+
 ## Participation
 
 We are actively seeking presenters or anyone interested in sharing their experience with the group. Long presentations aren't nescessary. Please contact us via Issues using `I am interested in presenting` as the title and we will coordinate the scheduling accordingly.
@@ -32,6 +36,7 @@ Below is a rough outline for the upcoming meetups through July. These are subjec
 
 ### June, 2016
 * Topic: Relational Database Service (RDS)
+* [AWS Summit 2016: Tokyo](https://aws.amazon.com/summits/)
 
 ### July, 2016
 * Topic: Identity Access Management (IAM)
