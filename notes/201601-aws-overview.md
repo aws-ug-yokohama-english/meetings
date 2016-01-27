@@ -113,6 +113,10 @@ Amazon CloudSearch supports 34 languages and popular search features such as hig
 
 Amazon Elastic Transcoder is media transcoding in the cloud. It is designed to be a highly scalable, easy to use and a cost effective way for developers and businesses to convert (or “transcode”) media files from their source format into versions that will playback on devices like smartphones, tablets and PCs.
 
+## Amazon AppStream
+
+Amazon AppStream enables you to stream your existing Windows applications from the cloud, reaching more users on more devices, without code modifications. With Amazon AppStream, your application will be deployed and rendered on AWS infrastructure and the output is streamed to mass-market devices, such as personal computers, tablets, and mobile phones. Because your application is running in the cloud, it can scale to handle vast computational and storage needs, regardless of the devices your customers are using. Amazon AppStream provides an SDK for streaming your application from the cloud. You can integrate your own custom clients, subscriptions, identity, and storage solution with AppStream to build a custom streaming solution that meets the needs of your business.
+
 # Deployment & Configuration
 
 ## Amazon CloudWatch
