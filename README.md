@@ -1,55 +1,42 @@
 AWS User Group - Yokohama (English)
 ===================================
 
-The AWS UG - Japan - Yokohama (English) welcomes anyone interested in discussing the cloud in general and Amazon Web Services in particular. We conduct monthly meetings to network, learn, and help others where possible. Join us!
+The AWS User Group - Japan - Yokohama (English) welcomes anyone interested in discussing the cloud in general and Amazon Web Services in particular. We conduct monthly meetings to network, learn, and help others where possible. Join us!
 
-# Meeting Planning / Schedule
+## RSVP to an event
 
-# January, 2016
+Please RSVP to join the next event if you are interested in attending. Out meetup page is located at http://www.meetup.com/AWS-User-Group-Japan-Yokohama-English/ 
 
-## Topic: Welcome to the first meetup (1.5 hrs)
+## Participation
 
-### Agenda
+We are actively seeking presenters or anyone interested in sharing their experience with the group. Long presentations aren't nescessary. Please contact us via Issues using `I am interested in presenting` as the title and we will coordinate the scheduling accordingly.
 
-* Welcome and Ice-breaker (10min)
-* Introductions (10min)
-* Group purpose and goals (20 min)
-* Amazon Web Services overview
+## Agenda
 
-## AWS Related events
+The latest agenda will always be accessible from the wiki: https://github.com/aws-ug-yokohama-english/meetings/wiki
 
-# February, 2016
+Below is a rough outline for the upcoming meetups through July. These are subject to change and will be updated as we get closer to the meetup.
 
-## Topic: Simple Storage Service (S3)
+## Meeting Planning / Schedule
 
-## AWS Related events
+### [January, 2016](https://github.com/aws-ug-yokohama-english/meetings/wiki/agenda-2016-01-27)
+* Topic: Welcome to the first meetup (1.5 hrs)
 
-# March, 2016
+### February, 2016
+* Topic: Simple Storage Service (S3)
 
-## Topic: CloudFront
+### March, 2016
+* Topic: CloudFront
 
-## AWS Related events
+### April, 2016
+* Topic: Route 53
 
-# April, 2016
+### May, 2016
+* Topic: Elastic Cloud Compute (EC2)
 
-## Topic: Route 53
+### June, 2016
+* Topic: Relational Database Service (RDS)
+* [AWS Summit 2016: Tokyo](https://aws.amazon.com/summits/)
 
-## AWS Related events
-
-# May, 2016
-
-## Topic: Elastic Cloud Compute (EC2)
-
-## AWS Related events
-
-# June, 2016
-
-## Topic: Relational Database Service (RDS)
-
-## AWS Related events
-
-# July, 2016
-
-## Topic: Identity Access Management (IAM)
-
-## AWS Related events
+### July, 2016
+* Topic: Identity Access Management (IAM)
