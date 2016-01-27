@@ -95,6 +95,10 @@ Amazon Redshift delivers fast query and I/O performance for virtually any size d
 
 Powerful security functionality is built-in. Amazon Redshift supports Amazon VPC out of the box and you can encrypt all your data and backups with just a few clicks. Once you’ve provisioned your cluster, you can connect to it and start loading data and running queries using the same SQL-based tools you use today.
 
+## Amazon Kinesis
+
+Amazon Kinesis is a platform for streaming data on AWS, offering powerful services to make it easy to load and analyze streaming data, and also providing the ability for you to build custom streaming data applications for specialized needs. Web applications, mobile devices, wearables, industrial sensors, and many software applications and services can generate staggering amounts of streaming data – sometimes TBs per hour – that need to be collected, stored, and processed continuously. Amazon Kinesis services enable you to do that simply and at a low cost.
+
 # Application Services
 
 ## Amazon CloudFront
