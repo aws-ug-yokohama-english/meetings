@@ -90,9 +90,8 @@ echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php
 1x MySQL db.t2.micro Instance
 
 * DB Subnet Group
-	* Name: websitecom-dbsg
-	* Add all AZ - Subnet pairs
-
+  * Name: websitecom-dbsg
+  * Add all AZ - Subnet pairs
 * Instance Specifications
   * DB Instance Class: db.t2.micro
 	* Multi-AZ: No
@@ -139,7 +138,7 @@ echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php
     * Ping Protocol: HTTP
     * Ping Port: 80
     * Ping Path: /index.html
- 		* Advanced Details (leave defaults)
+    * Advanced Details (leave defaults)
       * Response Timeout: 5
       * Health Check Interval: 30
       * Unhealthy Threshold: 4 
@@ -147,14 +146,14 @@ echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php
   * Assign Security Groups: web-dmz
   * Tags
     * Name: websitecom-lb
-		* Stack: awsug-tutorial
-		* Environment: dev
+    * Stack: awsug-tutorial
+    * Environment: dev
 
 ## Create S3 Bucket
 
 2x S3 Buckets
 
-	* websitecom-deployment
+  * websitecom-deployment
   * websitecom-prod
 
 # More next time...
