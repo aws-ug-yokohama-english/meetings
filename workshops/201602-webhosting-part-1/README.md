@@ -59,20 +59,20 @@ Generate an SSH key pair
 	* Instance Type: t2.micro
   * Advanced Details:
     * User Data:
-        ```php
-        #!/bin/bash
-				yum update -y
-				yum install -y httpd24 php56 mysql55-server php56-mysqlnd
-				service httpd start
-				chkconfig httpd on
-				groupadd www
-				usermod -a -G www ec2-user
-				chown -R root:www /var/www
-				chmod 2775 /var/www
-				find /var/www -type d -exec chmod 2775 {} +
-				find /var/www -type f -exec chmod 0664 {} +
-				echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php
-				```
+```php
+#!/bin/bash
+yum update -y
+yum install -y httpd24 php56 mysql55-server php56-mysqlnd
+service httpd start
+chkconfig httpd on
+groupadd www
+usermod -a -G www ec2-user
+chown -R root:www /var/www
+chmod 2775 /var/www
+find /var/www -type d -exec chmod 2775 {} +
+find /var/www -type f -exec chmod 0664 {} +
+echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php
+```
   * Instance Details
 		* Number of Instances: 1
     * Network: New VPC - 10.10.0.0/16
