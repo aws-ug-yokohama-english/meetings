@@ -7,25 +7,28 @@ use HTML::Entity;
 my $feed = "http://aws.amazon.com/new/feed/";
 my $results = from-xml(HTTP::UserAgent.new.get($feed).content);
 
+sub strip-html($str is copy) {
+	$_ = $str;
+	$_ ~~ s:g/\<.+?\>//;
+  $_;
+}
+
 for $results.nodes[0].elements(:TAG<item>) -> $node {
 	my $category = $node.elements(:TAG<category>);
 	$category ~~ s:g/\<.+?\>//;
 
   if ($category.contains('general:products')) {
-  	my $pubDate = $node.elements(:TAG<pubDate>);
-  	$pubDate ~~ s:g/\<.+?\>//;
-  	my $title = $node.elements(:TAG<title>);
-  	$title ~~ s:g/\<.+?\>//;
-  	my $desc = $node.elements(:TAG<description>);
-  	$desc ~~ s:g/\<.+?\>//;
-  	my $link = $node.elements(:TAG<link>);
-  	$link ~~ s:g/\<.+?\>//;
+  	my $pubdate = strip-html $node.elements(:TAG<pubDate>);
+  	my $title = strip-html $node.elements(:TAG<title>);
+  	my $desc = strip-html $node.elements(:TAG<description>);
+  	my $link = strip-html $node.elements(:TAG<link>);
 
 	  say '### [' ~ $title ~ '](' ~ $link ~ ')';
 	  say '';
 	  say '**Category:** ' ~ $category;
+		say '**Date:** ' ~ $pubdate.substr(0, 16);
 	  say '';
-	  say '' ~ decode-entities($desc);
+	  say '' ~ decode-entities $desc;
 	  say '';
 	}
 }
