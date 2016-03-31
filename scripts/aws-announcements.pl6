@@ -6,16 +6,14 @@ use HTML::Entity;
  
 my $feed = "http://aws.amazon.com/new/feed/";
 my $results = from-xml(HTTP::UserAgent.new.get($feed).content);
+my regex html { \<.+?\> };
 
-sub strip-html($str is copy) {
-  $_ = $str;
-  $_ ~~ s:g/\<.+?\>//;
-  $_;
+sub strip-html($str) {
+  $str.subst(&html, '', :g);
 }
 
 for $results.nodes[0].elements(:TAG<item>) -> $node {
-  my $category = $node.elements(:TAG<category>);
-  $category ~~ s:g/\<.+?\>//;
+  my $category = strip-html $node.elements(:TAG<category>);
 
   if ($category.contains('general:products')) {
     my $pubdate = strip-html $node.elements(:TAG<pubDate>);
