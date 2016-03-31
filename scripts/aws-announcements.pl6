@@ -1,5 +1,7 @@
 #!/usr/bin/env perl6
+
 use v6;
+
 use HTTP::UserAgent;
 use XML;
 use HTML::Entity;
@@ -15,12 +17,14 @@ sub strip-html($str) {
 for $results.nodes[0].elements(:TAG<item>) -> $node {
   my $category = strip-html $node.elements(:TAG<category>);
 
+  # Only use product announcements
   if ($category.contains('general:products')) {
     my $pubdate = strip-html $node.elements(:TAG<pubDate>);
     my $title = strip-html $node.elements(:TAG<title>);
     my $desc = strip-html $node.elements(:TAG<description>);
     my $link = strip-html $node.elements(:TAG<link>);
 
+    # Print for markdown
     say '### [' ~ $title ~ '](' ~ $link ~ ')';
     say '';
     say '**Category:** ' ~ $category;
@@ -30,4 +34,3 @@ for $results.nodes[0].elements(:TAG<item>) -> $node {
     say '';
   }
 }
-
