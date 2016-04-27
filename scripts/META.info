@@ -1,0 +1,17 @@
+{
+  "perl"        : "6.*",
+  "name"        : "aws-announcements",
+  "version"     : "0.1.0",
+  "author"      : "github:scmorrison",
+  "description" : "AWS Recent Announcements formatter",
+  "build-depends" : [ ],
+  "test-depends" : [
+      "Test"
+  ],
+  "provides" : {},
+  "depends"     : [ "HTTP::UserAgent", "XML", "HTML::Entity" ],
+  "source-url"  : "",
+  "authors" : [
+      "Sam Morrison"
+  ]
+}
